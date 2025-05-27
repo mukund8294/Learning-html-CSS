@@ -30,7 +30,7 @@ body {
 ul {
   list-style-type: decimal;
   list-style-position: inside;
-   list-style-image: url("../images/mario-run.gif"); 
+   /* list-style-image: url("../images/mario-run.gif");  */
 }
 
 li {
@@ -41,4 +41,3 @@ li {
   border: 2px solid #ed5656;
 }
 
-/* I will show the same during pseudo elements  */
