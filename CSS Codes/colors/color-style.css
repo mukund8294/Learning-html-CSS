@@ -9,20 +9,58 @@
 /** ------------------------------------ -->
 
 /*? Named Colors: You can use named colors, which are predefined color keywords. */
-
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
 /*? RGB Colors: RGB (Red, Green, Blue) values allow you to define colors by specifying the amount of red, green, and blue in the color. */
+h1{
+    color: red;
+    color: rgb(255, 0, 0);
 
+}
+p{color: blue;
+    color: rgb(0, 0, 255);
+
+}
 /*? RGBA Colors: RGBA is similar to RGB but includes an alpha channel for opacity control. */
 /* alpha - 0 - 1 */
 
+
+h1{
+    color: rgba(255, 0, 0, 1);
+}
+
+p{
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
 /*? Hexadecimal Colors: You can specify colors using hexadecimal values. */
+h1{
+    color: #ff0000;
+
+}
+p{
+    color: #0000ff;
+
+}
 
 /** ------------------------------------ -->
 /**  MORE ON COLORS
 /** ------------------------------------ -->
 
 /*? HSL Colors: HSL (Hue, Saturation, Lightness) values provide a way to specify colors based on their hue, saturation, and lightness. */
+h1{
+    color: hsl(0, 100%, 50%);
 
+}
+p{
+    color: hsl(230, 100%, 50%);
+
+}
 /*? HSLA Colors: Similar to HSL, HSLA includes an alpha channel for opacity control. */
 
 /** ------------------------------------- -->
@@ -30,9 +68,19 @@
 /** ---------------------------------------- -->
 
 /*? 1: What is the difference between rgb() and rgba() color notations in CSS? */
+/*  ans :------differnt is only alpha . alpha channel to seecify transparency. */
 /* rgb() notation specifies a color using the red, green, and blue channels without transparency.
-rgba() notation is an extension of rgb() and includes an additional alpha channel to specify transparency. It stands for "red, green, blue, alpha.  */
-
-/*? 2: How can you make the text color of an element fully transparent using CSS? Provide an example. */
+/* ans:---- color : rgba(255,0,0); */
+/* color: transparent; */
+/* rgba() notation is an extension of rgb() and includes an additional alpha channel to specify transparency. It stands for "red, green, blue, alpha.   */
+ /*2: How can you make the text color of an element fully transparent using CSS? Provide an example. */
 
 /*? 3: How can you set the text color of an element to match the current color of another CSS property within the same element? */
+.hero-section{
+    color: palevioletred;
+}
+
+
+p{
+    color: currentColor;
+}
