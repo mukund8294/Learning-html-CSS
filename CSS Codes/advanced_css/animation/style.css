@@ -40,15 +40,7 @@ h1 {
   /* animation-fill-mode: backwards; */
 }
 
-/* @keyframes lefttoright {
-  from {
-    translate: 0%;
-  }
-  to { */
-/* translate: 90vw; */
-/* translate: calc(90vw - 100px);
-  }
-} */
+
 
 /* @keyframes lefttoright {
   0% {
@@ -57,8 +49,7 @@ h1 {
   50% {
     translate: 50vw 50vh;
   }
-  100% {
-    translate: calc(90vw - 100px);
+
   }
 } */
 
