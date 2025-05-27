@@ -1,17 +1,4 @@
-/** ------------------------------------- -->
-/**  COLUMN LAYOUT IN CSS  
-/** ---------------------------------------- -->
 
-/* The CSS multi-column layout allows easy definition of multiple columns of text - just like in newspapers */
-/* 
-column-count
-column-gap
-column-rule-style
-column-rule-width
-column-rule-color
-column-rule
-column-span
-column-width */
 
 * {
   margin: 0;
