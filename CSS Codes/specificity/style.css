@@ -1,27 +1,4 @@
-/** ------------------------------------- -->
-/**  CSS SPECIFICITY
-/** ---------------------------------------- --> */
 
-/*? CSS specificity is a concept that determines which CSS rules are applied to an HTML element when multiple conflicting rules exist. It helps browsers decide which style declarations should take precedence when more than one rule targets the same element. Specificity is a fundamental part of understanding CSS, and it's crucial for resolving styling conflicts */
-
-/* Every CSS selector has its place in the specificity hierarchy.
-
-? There are Five categories which define the specificity level of a selector:
-
--!important  - Example  <h1 style="color: red!important;"> 
-Inline styles - Example: <h1 style="color: red;">
-IDs - Example: #navbar
-Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
-Elements and pseudo-elements - Example: h1, ::before */
-
-/** ------------------------------------- -->
-/**  CSS SPECIFICITY - TIPS
-/** ---------------------------------------- --> */
-
-/*? Avoid overusing !important since it can lead to difficult-to-maintain code. */
-/*? Use specific selectors when necessary, but strive for a balanced and maintainable approach. */
-
-/** ---------------------------------------- --> */
 
 * {
   margin: 0;
